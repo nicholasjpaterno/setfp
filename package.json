@@ -1,0 +1,38 @@
+{
+  "name": "setfp",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "author": "nicholasjpaterno <cashlion@protonmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/nicholasjpaterno/setfp/blob/master/README.md",
+  "repository": "https://github.com/nicholasjpaterno/setfp/",
+  "keywords": [
+    "Set Object",
+    "filter",
+    "reduce",
+    "map",
+    "every",
+    "some",
+    "toArray",
+    "functional"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "yarn eslint . --ext .js,.jsx,.ts,.tsx",
+    "start": "node build/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "engineStrict": true
+}
